@@ -7,6 +7,7 @@ public class DailyTask extends Task{
 
     public DailyTask(int id, String title, String description, LocalDateTime taskDataTime, TaskType taskType) {
         super(title, description, taskDataTime, taskType);
+
     }
 
     @Override
